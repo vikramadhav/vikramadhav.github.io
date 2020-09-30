@@ -1,8 +1,6 @@
 
 !(function($) {
   "use strict";
-
-  
   $(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var hash = this.hash;
@@ -36,15 +34,12 @@
         $('html, body').animate({
           scrollTop: 0
         }, 350);
-
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
           $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
           $('.mobile-nav-overly').fadeOut();
         }
-
         return false;
-
       }
     }
   });
@@ -94,7 +89,7 @@
 
   
   $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
+    delay: 100,
     time: 1000
   });
 

@@ -515,11 +515,25 @@ section .container {
   text-align: justify;
 }
 
+.card{
+  color:#fff;
+  background-color: rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,.1);
+  margin-top: 5px;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.btn{
+  text-align: left;
+  vertical-align: middle;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   color: #007bff;
   margin-bottom: 10px;
