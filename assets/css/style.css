@@ -10,7 +10,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #fff url("../img/bg.jpg") top right no-repeat;
+  background: #fff url("../img/bg-min.jpg") top right no-repeat;
   filter: blur(8px);
   -webkit-filter: blur(3px);
   background-size: cover;
@@ -515,6 +515,8 @@ section .container {
   border-left: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
   text-align: justify;
+  text-align-last: left;
+  text-justify: distribute;
 }
 
 .card{
@@ -536,6 +538,12 @@ section .container {
   100% {
     opacity: 1;
   }
+}
+
+.uniformText{
+ text-justify: distribute;
+ text-align: justify;
+ text-align-last: left;
 }
 
 .pulse {
@@ -656,6 +664,7 @@ section .container {
   margin-bottom: 0;
   text-align: justify;
   text-align-last: left;
+  text-justify: distribute
 }
 
 .certifications .icon-box:hover {
