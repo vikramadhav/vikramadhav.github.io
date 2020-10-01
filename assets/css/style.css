@@ -11,6 +11,8 @@ body::before {
   content: "";
   position: fixed;
   background: #fff url("../img/bg.jpg") top right no-repeat;
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
   background-size: cover;
   left: 0;
   right: 0;
