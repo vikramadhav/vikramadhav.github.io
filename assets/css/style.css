@@ -523,6 +523,33 @@ section .container {
   text-align: justify;
   text-align-last: left;
 }
+.noJustify{
+  text-align: left;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: .00;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pulse {
+  animation-duration: 2s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.halfOpacity{
+  opacity: 0.5;
+}
+
+.card-img-top{
+  background-color: rgba(255, 255, 255, 1);
+}
 
 .btn{
   text-align: left;
