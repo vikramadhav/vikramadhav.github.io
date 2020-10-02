@@ -11,8 +11,6 @@ body::before {
   content: "";
   position: fixed;
   background: #fff url("../img/bg-min.jpg") top right no-repeat;
-  filter: blur(8px);
-  -webkit-filter: blur(3px);
   background-size: cover;
   left: 0;
   right: 0;
@@ -89,11 +87,11 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgb(128 128 128);
+  color: rgba(255,255, 255,1);
 }
 
 #header h2 span {
-  color: #808080;
+  color: rgba(255,255, 255,1);
   border-bottom: 2px solid #007bff;
   padding-bottom: 6px;
 }
@@ -114,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #808080;
+  color: #fff;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -188,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #808080;
+  color: rgba(255,255, 255,1);
   text-decoration: none;
 }
 
@@ -517,48 +515,6 @@ section .container {
   text-align: justify;
   text-align-last: left;
   text-justify: distribute;
-}
-
-.card{
-  color:#fff;
-  background-color: rgba(0,0,0,0.2);
-  border: 1px solid rgba(255,255,255,.1);
-  margin-top: 5px;
-  text-align: justify;
-  text-align-last: left;
-}
-.noJustify{
-  text-align: left;
-}
-
-@keyframes pulse {
-  0% {
-    opacity: .00;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.uniformText{
- text-justify: distribute;
- text-align: justify;
- text-align-last: left;
-}
-
-.pulse {
-  animation-duration: 2s;
-  animation-name: pulse;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-.halfOpacity{
-  opacity: 0.5;
-}
-
-.card-img-top{
-  background-color: rgba(255, 255, 255, 1);
 }
 
 .btn{
@@ -951,7 +907,7 @@ section .container {
   padding: 15px;
   text-align: right;
   font-size: 13px;
-  color: #808080;
+  color: #fff;
   z-index: 1;
 }
 
@@ -973,3 +929,57 @@ section .container {
 }
 
 
+
+
+/*My Custom*/
+
+.card{
+  color:#fff;
+  background-color: rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,.1);
+  margin-top: 5px;
+  text-align: justify;
+  text-align-last: left;
+}
+.noJustify{
+  text-align: left;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: .00;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.greyScale100p{
+  filter: grayscale(100%);
+}
+
+.hueFilter{
+  filter: hue-rotate(3.142rad);
+}
+
+.uniformText{
+ text-justify: distribute;
+ text-align: justify;
+ text-align-last: left;
+}
+
+.pulse {
+  animation-duration: 2s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.halfOpacity{
+  opacity: 0.5;
+}
+
+.card-img-top{
+  background-color: rgba(255, 255, 255, 1);
+
+}
