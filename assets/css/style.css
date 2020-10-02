@@ -640,7 +640,7 @@ section .container {
 }
 
 .certifications .icon-box:hover .icon {
-  background: #808080;
+  background: #000;
 }
 
 .certifications .icon-box:hover .icon i {
