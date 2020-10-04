@@ -429,7 +429,7 @@ section .container {
 }
 
 .propimage {
-    filter: sepia(100%)  hue-rotate(0deg)  saturate(150%);
+    filter: sepia(100%) hue-rotate(0deg) saturate(150%);
 }
 
 .counts {
@@ -714,6 +714,26 @@ section .container {
 .contact .info-box .social-links {
     margin: 5px 0 0 68px;
     display: flex;
+}
+
+@media (max-width: 760px) {
+    .contact .info-box .social-links {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media  (min-device-width: 1000px){
+    .contact .info-box .social-links {
+        width: 100%;
+        margin-left: 15%;
+    }
+}
+
+@media  (min-device-width: 761px) and (max-width: 999px) {
+    .contact .info-box .social-links {
+        width: 100%;
+        margin-left: -9%;
+    }
 }
 
 .contact .info-box .social-links a {
