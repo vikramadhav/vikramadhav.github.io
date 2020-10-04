@@ -58,7 +58,6 @@ h6 {
     font-family: "Raleway", sans-serif;
 }
 
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -142,7 +141,7 @@ h6 {
     background: #007bff;
 }
 
-@media (max-width:590px) {
+@media (max-width: 590px) {
     #header h2 {
         text-align: justify;
         text-justify: distribute;
@@ -178,7 +177,7 @@ h6 {
     list-style: none;
 }
 
-.nav-menu li+li {
+.nav-menu li + li {
     margin-left: 30px;
 }
 
@@ -205,15 +204,15 @@ h6 {
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover>a:before,
-.nav-menu .active>a:before {
+.nav-menu li:hover > a:before,
+.nav-menu .active > a:before {
     visibility: visible;
     width: 25px;
 }
 
 .nav-menu a:hover,
-.nav-menu .active>a,
-.nav-menu li:hover>a {
+.nav-menu .active > a,
+.nav-menu li:hover > a {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
@@ -270,8 +269,8 @@ h6 {
 }
 
 .mobile-nav a:hover,
-.mobile-nav .active>a,
-.mobile-nav li:hover>a {
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
     color: #007bff;
     text-decoration: none;
 }
@@ -301,7 +300,6 @@ h6 {
 .mobile-nav-active .mobile-nav-toggle i {
     color: #808080;
 }
-
 
 /* Header Top */
 
@@ -428,6 +426,10 @@ section .container {
 
 .about-me .content p:last-child {
     margin-bottom: 0;
+}
+
+.propimage {
+    filter: sepia(100%)  hue-rotate(0deg)  saturate(150%);
 }
 
 .counts {
@@ -749,7 +751,7 @@ section .container {
     font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
     margin-top: 25px;
 }
 
@@ -923,7 +925,7 @@ section .container {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
 }
 
@@ -966,7 +968,6 @@ section .container {
 .credits a:hover {
     color: #808080;
 }
-
 
 /*My Custom*/
 
