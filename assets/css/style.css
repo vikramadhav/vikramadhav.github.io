@@ -81,7 +81,9 @@ h6 {
 }
 
 #header {
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out .7s;
+    /* transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1); */
     position: relative;
     height: 100vh;
     display: flex;
