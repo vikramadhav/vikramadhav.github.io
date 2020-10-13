@@ -6,17 +6,7 @@ body {
     background: 0 0;
 }
 
-body::before {
-    content: "";
-    /* background: #fff url(../img/bg-min.jpg) top right no-repeat; */
-    background-size: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 100vh;
-    z-index: -1;
-}
+
 
 * {
     scrollbar-width: thin;
@@ -40,17 +30,7 @@ body::before {
     border: 3px solid rgba(7, 7, 7, 0.712);
 }
 
-@media (min-width: 550px) {
-    body::before {
-        right: 0;
-    }
-}
 
-@media (min-width: 1024px) {
-    body::before {
-        background-attachment: fixed;
-    }
-}
 
 a {
     color: #007bff;
@@ -122,16 +102,6 @@ h6 {
     color: #fff;
 }
 
-#header h2 span {
-    color: #fff;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 6px;
-}
-
-#header h2 span:hover {
-    color: grey;
-}
-
 #header img {
     padding: 0;
     margin: 0;
@@ -162,7 +132,7 @@ h6 {
 
 @media (max-width: 590px) {
     #header h2 {
-        text-align: justify;
+        text-align: center;
         text-justify: distribute;
     }
 }
