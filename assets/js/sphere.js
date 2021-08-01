@@ -251,11 +251,13 @@ const myTags = [
     'Canary Deployments','R&D', 'AI', 'Service Fabric.','UML','GIT','SVN','Bamboo',
     'Octopus','NUnit','Angualr', 'C#', 'Cloud', 'Event Driven' ,'Message Oriented', 
     'Typescript','MVC','WebAPI','ELK','Jupyter NoteBook', 'No SQL', 'SQL','XUnit',
-    'Spec Flow','Jasmine','PING','ForgeRock','Azure Active Directory Domain Services',
+    'Spec Flow','Jasmine','PING','ForgeRock','Azure AD','PowerShell','Bash','Azure CLI',
     'Python', 'Go', 'Chrome', 'AWS', 'CI/CD','Azure Dev-OPS','AKS','TDD','BDD','IoT',
     'IIoT','Kibana','Log-Stash','Elastic Search','ASP.NET/ ASP.Net Core,','Entity Framework',
     'Spyder','Edge', 'Firefox', 'Safari','Docker','Terraform','Agile', 'XP Methodologies' ,
-    'Kanban','Stoplight','UML',
+    'Kanban','Stoplight','UML','JQuery','SQL Server','LINQ','VS Unit Test','Anaconda','Azure Security',
+    'Cost optimization','Microservices','Serverless Code Architecture','Cloud computing','Cloud Native Architecture',
+    'OOD','Client-Server','Leadersip','Team management','Photography','Connected Homes',
 ];
 
 
