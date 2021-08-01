@@ -247,21 +247,27 @@
 
 
 const myTags = [
-    'JavaScript', 'CSS', 'HTML',
-    'Angualr', 'VueJS', 'React',
-    'Python', 'Go', 'Chrome',
-    'Edge', 'Firefox', 'Safari',
+    'JavaScript', 'CSS', 'HTML', 'PaaS','SaaS' , 'IaaS','Green-Blue Deployments', 
+    'Canary Deployments','R&D', 'AI', 'Service Fabric.','UML','GIT','SVN','Bamboo',
+    'Octopus','NUnit','Angualr', 'C#', 'Cloud', 'Event Driven' ,'Message Oriented', 
+    'Typescript','MVC','WebAPI','ELK','Jupyter NoteBook', 'No SQL', 'SQL','XUnit',
+    'Spec Flow','Jasmine','PING','ForgeRock','Azure Active Directory Domain Services',
+    'Python', 'Go', 'Chrome', 'AWS', 'CI/CD','Azure Dev-OPS','AKS','TDD','BDD','IoT',
+     'IIoT','Kibana','Log-Stash','Elastic Search','ASP.NET/ ASP.Net Core,','Entity Framework',
+     'Spyder','Edge', 'Firefox', 'Safari','Docker','Terraform','Agile', 'XP Methodologies' ,
+     'Kanan','Stoplight','UML'
+    
 ];
 
 
 
 var tagCloud = TagCloud('.sphere', myTags,{
   // radius in px
-  radius: 200,
+  radius: parseInt(window.innerHeight/2),
   // animation speed
   // slow, normal, fast
   maxSpeed: 'normal',
-  initSpeed: 'normal',
+  initSpeed: 'slow',
   // 0 = top
   // 90 = left
   // 135 = right-bottom
