@@ -253,10 +253,9 @@ const myTags = [
     'Typescript','MVC','WebAPI','ELK','Jupyter NoteBook', 'No SQL', 'SQL','XUnit',
     'Spec Flow','Jasmine','PING','ForgeRock','Azure Active Directory Domain Services',
     'Python', 'Go', 'Chrome', 'AWS', 'CI/CD','Azure Dev-OPS','AKS','TDD','BDD','IoT',
-     'IIoT','Kibana','Log-Stash','Elastic Search','ASP.NET/ ASP.Net Core,','Entity Framework',
-     'Spyder','Edge', 'Firefox', 'Safari','Docker','Terraform','Agile', 'XP Methodologies' ,
-     'Kanan','Stoplight','UML'
-    
+    'IIoT','Kibana','Log-Stash','Elastic Search','ASP.NET/ ASP.Net Core,','Entity Framework',
+    'Spyder','Edge', 'Firefox', 'Safari','Docker','Terraform','Agile', 'XP Methodologies' ,
+    'Kanban','Stoplight','UML',
 ];
 
 
