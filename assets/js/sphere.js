@@ -247,12 +247,12 @@
 
 
 const myTags = [
-    'JavaScript', 'CSS', 'HTML', 'PaaS','SaaS' , 'IaaS','Green-Blue Deployments', 
-    'Canary Deployments','R&D', 'AI', 'Service Fabric.','UML','GIT','SVN','Bamboo',
-    'Octopus','NUnit','Angualr', 'C#', 'Cloud', 'Event Driven' ,'Message Oriented', 
-    'Typescript','MVC','WebAPI','ELK','Jupyter NoteBook', 'No SQL', 'SQL','XUnit',
-    'Spec Flow','Jasmine','PING','ForgeRock','Azure AD','PowerShell','Bash','Azure CLI',
-    'Python', 'Go', 'Chrome', 'AWS', 'CI/CD','Azure Dev-OPS','AKS','TDD','BDD','IoT',
+    'JavaScript', 'CSS', 'HTML', 'PaaS','SaaS' , 'IaaS','Green-Blue Deployments', 'Scrum','REST',
+    'Canary Deployments','R&D', 'AI', 'Service Fabric.','UML','GIT','SVN','Bamboo','API Gateway',
+    'Octopus','NUnit','Angualr', 'C#', 'Cloud', 'Event Driven' ,'Message Oriented', 'SOLID',
+    'Typescript','MVC','WebAPI','ELK','Jupyter NoteBook', 'No SQL', 'SQL','XUnit','Hexagonal Design',
+    'Spec Flow','Jasmine','PING','ForgeRock','Azure AD','PowerShell','Bash','Azure CLI','.Net Core',
+    'Python', 'Go', 'Chrome', 'AWS', 'CI/CD','Azure Dev-OPS','AKS','TDD','BDD','IoT','Middle-Ware',
     'IIoT','Kibana','Log-Stash','Elastic Search','ASP.NET/ ASP.Net Core,','Entity Framework',
     'Spyder','Edge', 'Firefox', 'Safari','Docker','Terraform','Agile', 'XP Methodologies' ,
     'Kanban','Stoplight','UML','JQuery','SQL Server','LINQ','VS Unit Test','Anaconda','Azure Security',
