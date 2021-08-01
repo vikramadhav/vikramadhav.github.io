@@ -27,3 +27,11 @@
     background-color: rgba(255,255,255,.1);
     border: 1px solid #fff;
   }
+  .centerScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+  }
