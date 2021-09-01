@@ -247,7 +247,7 @@
 
 
 const myTags = [
-    'JavaScript', 'CSS', 'HTML', 'PaaS','SaaS' , 'IaaS','Green-Blue Deployments', 'Scrum','REST',
+    'JavaScript', 'CSS', 'HTML', 'PaaS','SaaS' , 'IaaS','Green-Blue Deployments', 'Scrum','REST','CKAD',
     'Canary Deployments','R&D', 'AI', 'Service Fabric.','UML','GIT','SVN','Bamboo','API Gateway',
     'Octopus','NUnit','Angualr', 'C#', 'Cloud', 'Event Driven' ,'Message Oriented', 'SOLID',
     'Typescript','MVC','WebAPI','ELK','Jupyter NoteBook', 'No SQL', 'SQL','XUnit','Hexagonal Design',
