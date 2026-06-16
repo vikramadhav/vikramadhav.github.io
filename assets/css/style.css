@@ -1125,8 +1125,8 @@ section .container {
     text-decoration: none !important;
 }
 
-/* Optional: If you are using Bootstrap Cards, remove the default transparent background */
-.card {
+/* Certifications-only card reset to avoid affecting Resume/other sections */
+#certifications .card {
     background-color: transparent !important;
     border: none !important;
 }
