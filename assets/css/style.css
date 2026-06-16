@@ -11,6 +11,14 @@ body {
     scrollbar-color: rgba(100, 100, 102, 0.788) rgba(20, 20, 20, 0.712);
 }
 
+.about,
+.resume,
+.certifications,
+.contact {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 1200px;
+}
+
 /* Works on Chrome/Edge/Safari */
 
 *::-webkit-scrollbar {

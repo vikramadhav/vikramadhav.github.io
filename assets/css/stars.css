@@ -2,7 +2,7 @@
 @media(max-width: 1023px){
     body::before {
         content: "";
-        background: #fff url(../img/bg-min.jpg) top right no-repeat; 
+        background: #fff url(../img/bg-min-mobile.jpg) top right no-repeat; 
         background-size: cover;
         position: fixed;
         left: 0;
