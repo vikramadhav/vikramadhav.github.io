@@ -8,7 +8,6 @@ const PRECACHE_URLS = [
   "/star.html",
   "/assets/css/style.css",
   "/assets/css/stars.css",
-  "/assets/css/sphere.css",
   "/assets/js/main.js",
   "/assets/js/googleanalytics.js",
   "/assets/vendor/bootstrap/css/bootstrap.min.css",
