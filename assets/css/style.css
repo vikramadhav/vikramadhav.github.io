@@ -557,7 +557,7 @@ section .container {
     position: relative;
     text-align: justify;
     text-align-last: left;
-    text-justify: distribute;
+    text-justify: auto;
 }
 
 .btn {
@@ -1090,4 +1090,43 @@ section .container {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+/* The container box for the job titles */
+.card-header {
+    background-color: rgba(51, 65, 85, 0.8) !important;
+    border: 1px solid rgba(148, 163, 184, 0.5) !important;
+    border-radius: 8px !important; /* Smoother edges for a modern look */
+    margin-bottom: 10px; /* Adds spacing between the job boxes */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the box to improve UX */
+.card-header:hover {
+    background-color: rgba(71, 85, 105, 0.9) !important; /* Slightly lighter on hover */
+    border-color: rgba(148, 163, 184, 0.8) !important;
+}
+
+/* The text/link inside the header */
+.btn-link {
+    color: rgba(255, 255, 255, 1) !important; /* Pure white text */
+    text-decoration: none !important; /* Removes the default blue underline */
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+/* Link behavior when hovering or focused */
+.btn-link:hover, 
+.btn-link:focus {
+    color: rgba(203, 213, 225, 1) !important; /* Muted steel silver text on hover */
+    text-decoration: none !important;
+}
+
+/* Optional: If you are using Bootstrap Cards, remove the default transparent background */
+.card {
+    background-color: transparent !important;
+    border: none !important;
 }
