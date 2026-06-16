@@ -100,4 +100,21 @@
     }, {
         offset: '80%'
     });
+
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    if (window.VanillaTilt && !reduceMotion && finePointer) {
+        var certificationCards = document.querySelectorAll('#certifications .card-deck .card');
+        if (certificationCards.length) {
+            document.documentElement.classList.add('cert-tilt-enabled');
+            VanillaTilt.init(certificationCards, {
+                max: 8,
+                speed: 450,
+                scale: 1.03,
+                glare: true,
+                'max-glare': 0.18,
+                gyroscope: false
+            });
+        }
+    }
 })(jQuery);
